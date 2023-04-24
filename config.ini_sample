@@ -7,9 +7,9 @@ user_key = YOUR_USER_KEY_1
 products = Nintendo Switch 2;B08H93ZRK9, Xbox Series Y;B08H93ZRK9
 
 ; [user2]
-: api_key = YOUR_API_KEY_2
-: user_key = YOUR_USER_KEY_2
-: products = Playstation 5;B09C8HZMW5, Yoshis Dreamland;B07T8BP118
+; api_key = YOUR_API_KEY_2
+; user_key = YOUR_USER_KEY_2
+; products = Playstation 5;B09C8HZMW5, Yoshis Dreamland;B07T8BP118
 
 ; To add more users, simply create a new section with the format:
 ; [userN]
