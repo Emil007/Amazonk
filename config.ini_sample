@@ -1,18 +1,21 @@
 ; This is a sample configuration file for the AmazonK script.
 ; Replace the API keys and user keys with your own, and add your desired products.
 
-[user1]
-api_key = YOUR_API_KEY_1
-user_key = YOUR_USER_KEY_1
-products = Nintendo Switch 2;B08H93ZRK9, Xbox Series Y;B08H93ZRK9
+[username]
+api_key = YOUR_API_KEY
+user_key = YOUR_USER_KEY
+products = Product Name;ASIN
 
-; [user2]
-; api_key = YOUR_API_KEY_2
-; user_key = YOUR_USER_KEY_2
-; products = Playstation 5;B09C8HZMW5, Yoshis Dreamland;B07T8BP118
+
+; Example:
+;
+; [Joerg_Draeger]
+; api_key = xxx
+; user_key = xxx
+; products = Karibikreise;B09C8HZMW5, Mercedes Benz;B07T8BP118, 5000 DM;B08H93ZRK9
 
 ; To add more users, simply create a new section with the format:
-; [userN]
-; api_key = YOUR_API_KEY_N
-; user_key = YOUR_USER_KEY_N
+; [username]
+; api_key = API_KEY
+; user_key = USER_KEY
 ; products = Product Name;ASIN, Another Product Name;ASIN
