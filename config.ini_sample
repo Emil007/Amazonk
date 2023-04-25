@@ -1,4 +1,5 @@
 [username]
+service = pushover/pushbullet
 api_key = YOUR_API_KEY
 user_key = YOUR_USER_KEY
 products = Product Name;ASIN
@@ -7,12 +8,13 @@ products = Product Name;ASIN
 ; Example:
 
 ; [Joerg_Draeger]
+; service = pushover
 ; api_key = xxx
 ; user_key = xxx
 ; products = Karibikreise;B09C8HZMW5, Mercedes Benz;B07T8BP118, 5000 DM;B08H93ZRK9
 
 ; To add more users, simply create a new section with the format:
 ; [username]
-; api_key = API_KEY
+; service = pushbullet
 ; user_key = USER_KEY
 ; products = Product Name;ASIN, Another Product Name;ASIN
